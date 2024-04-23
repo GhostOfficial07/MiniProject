@@ -7,7 +7,8 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Nivriti - Donation</title>
+        <title>Nivriti - get_Direction</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
         <!-- CSS FILES -->        
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -129,148 +130,36 @@ https://templatemo.com/tm-581-kind-heart-charity
 
         <main>
 
-            <section class="donate-section">
-                <div class="section-overlay"></div>
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-12 mx-auto">
-                            <form class="custom-form donate-form" action="#" method="get" role="form">
-                                <h3 class="mb-4">Make a donation</h3>
-
-                                <div class="row">
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mb-3">Donation Frequency</h5>
-                                    </div>
-
-                                    <div class="col-lg-6 col-6 form-check-group form-check-group-donation-frequency">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyOne" checked>
-                                            
-                                            <label class="form-check-label" for="DonationFrequencyOne">
-                                                One Time
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-6 form-check-group form-check-group-donation-frequency">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyMonthly">
-                                            
-                                            <label class="form-check-label" for="DonationFrequencyMonthly">
-                                                Monthly
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-2 mb-3">Select an amount</h5>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                $10
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                            <label class="form-check-label" for="flexRadioDefault2">
-                                                $15
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                                            <label class="form-check-label" for="flexRadioDefault3">
-                                                $20
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                                            <label class="form-check-label" for="flexRadioDefault4">
-                                                $30
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                                            <label class="form-check-label" for="flexRadioDefault5">
-                                                $45
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
-                                            <label class="form-check-label" for="flexRadioDefault6">
-                                                $50
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 form-check-group">
-                                        <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon1">$</span>
-                                            
-                                            <input type="text" class="form-control" placeholder="Custom amount" aria-label="Username" aria-describedby="basic-addon1">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-1">Personal Info</h5>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mt-2">
-                                        <input type="text" name="donation-name" id="donation-name" class="form-control" placeholder="Full name" required>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mt-2">
-                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="E-mail" required>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-4 pt-1">Choose Payment</h5>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12 mt-2">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault9">
-                                            <label class="form-check-label" for="flexRadioDefault9">
-                                                <i class="bi-credit-card custom-icon ms-1"></i>
-                                                Debit or Credit card
-                                            </label>
-                                        </div>
-
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault10">
-                                            <label class="form-check-label" for="flexRadioDefault10">
-                                                <i class="bi-paypal custom-icon ms-1"></i>
-                                                Paypal
-                                            </label>
-                                        </div>
-
-                                        <button type="submit" class="form-control mt-4">Donate</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
+            <section id="contact-details" class="section-p1">
+                <div class="details">
+                    <span>GET IN TOUCH</span>
+                    <h2>Visit our nearest branch or contact us today</h2>
+                    <h3>Head Office</h3>
+                    <div>
+                        <li>
+                            <i class="fal fa-map"></i>
+                            <p> National Highway 33 Irba, Ranchi</p>
+                        </li>
+                        <li>
+                            <i class="fal fa-envelope"></i>
+                            <p>@nivriti.com</p>
+                        </li>
+                        <li>
+                            <i class="fal fa-phone-alt"></i>
+                            <p>123-456-7890</p>
+                        </li>
+                        <li>
+                            <i class="fal fa-clock"></i>
+                            <p>Monday to Saturday: 9:00am to 16:00pm</p>
+                        </li>
                     </div>
                 </div>
+    
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.99732508217!2d85.4450490753815!3d23.460560978869218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4fad7f4c54f41%3A0xe1a0c829431c91d6!2sNH-33%2C%20Irba%2C%20Jharkhand%20835219!5e0!3m2!1sen!2sin!4v1713817494871!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </section>
+            
         </main>
 
         <footer class="site-footer">
@@ -284,11 +173,11 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <h5 class="site-footer-title mb-3">Quick Links</h5>
 
                         <ul class="footer-menu">
-                            <li class="footer-menu-item"><a href="#section_2" class="footer-menu-link">Our Story</a></li>
+                            <li class="footer-menu-item"><a href="section_2" class="footer-menu-link">Our Story</a></li>
 
                             <li class="footer-menu-item"><a href="news-detail.html" class="footer-menu-link">Newsroom</a></li>
 
-                            <li class="footer-menu-item"><a href="#section_3" class="footer-menu-link">Mission</a></li>
+                            <li class="footer-menu-item"><a href="section_3" class="footer-menu-link">Mission</a></li>
 
                             <li class="footer-menu-item"><a href="#section_4" class="footer-menu-link">Become a volunteer</a></li>
 
